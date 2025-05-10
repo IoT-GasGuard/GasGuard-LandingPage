@@ -71,8 +71,7 @@ button:focus {
   outline: none;
 }
 
-ul,
-ol {
+ul {
   margin: 0px;
   padding: 0px;
   list-style-type: none;
@@ -122,26 +121,6 @@ h5,
 h6,
 .h6 {
   font-size: 0.875em;
-  line-height: 1.25;
-}
-
-.display-1 {
-  font-size: 5.5em;
-  line-height: 1.25;
-}
-
-.display-2 {
-  font-size: 4.75em;
-  line-height: 1.25;
-}
-
-.display-3 {
-  font-size: 4em;
-  line-height: 1.25;
-}
-
-.display-4 {
-  font-size: 3.25em;
   line-height: 1.25;
 }
 
