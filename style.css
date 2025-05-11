@@ -1792,3 +1792,21 @@ p {
 .footer-eleven .f-link li a:hover::after {
   width: 100%;
 }
+
+.section-title-five h6:hover {
+  background-color: #507A9E;
+  color: white;
+  border-color: #507A9E;
+  transition: all 0.3s ease;
+}
+
+.section-title-five h6 {
+  font-weight: 600;
+  display: inline-block;
+  margin-bottom: 15px;
+  color: var(--primary);
+  border: 2px solid var(--primary);
+  border-radius: 30px;
+  padding: 8px 30px;
+}
+
