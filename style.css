@@ -1771,3 +1771,24 @@ p {
   color: var(--white);
   background-color: var(--primary-dark);
 }
+
+.footer-eleven .f-link li a {
+  position: relative;
+  text-decoration: none;
+  padding-bottom: 2px;
+}
+
+.footer-eleven .f-link li a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  height: 2px;
+  background-color: var(--primary);
+  transition: width 0.3s ease;
+}
+
+.footer-eleven .f-link li a:hover::after {
+  width: 100%;
+}
